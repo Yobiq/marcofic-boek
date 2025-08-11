@@ -121,3 +121,30 @@ filament/
 
 # Media library
 media-library/
+
+# Simulator files and media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# Screenshots and recordings
+*Screenshot*
+*Screen Recording*
+*Recording*
+
+# Keep only specific image assets
+!frontend/assets/*.png
+!frontend/assets/*.jpg
+!frontend/assets/*.jpeg
+!frontend/assets/*.gif
+!frontend/assets/*.webp
+!frontend/assets/*.svg
